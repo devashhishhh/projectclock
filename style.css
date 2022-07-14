@@ -1,0 +1,67 @@
+body{
+    background:url(/WhatsApp\ Image\ 2022-06-29\ at\ 10.15.20\ PM.jpeg);
+     background-size: 100%; 
+    background-repeat: no-repeat;
+
+}
+p{
+    color: black;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    text-decoration:  2px underline rgb(123, 218, 64);
+    text-align: center;
+   
+
+}
+
+
+#container{
+    height: 30vw;
+    width: 30vw;
+    background: url(/clock.png)  no-repeat;
+    margin: 136px 204px;
+    
+    background-size: 100%;
+    position: relative;
+}
+#hour,#minute,#second{
+     background: black; 
+    position: absolute;
+    border-radius: 14px;
+    transform-origin: bottom;
+
+}
+
+#hour{  height: 26.5%;
+    width: 1.2%;
+    top: 25%;
+    left: 49.4%;
+    
+    
+    
+
+  }
+
+
+#minute {
+    height: 34%;
+    width: 0.8%;
+    top: 17%;
+    left: 49.4%;
+    
+    
+    
+    
+}
+#second{
+    height: 38%;
+    width: 0.6%;
+    top: 13%;
+    left: 49.6%;
+    
+    
+
+}
+
+
